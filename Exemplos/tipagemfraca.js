@@ -1,6 +1,14 @@
 console.log(7/0)
 console.log("10" / 2)
-console.log("Show!" *2)
-console.log(0.1 + 0.7)
-//console.log(10.toString())
-console.log((10.345).toFixed(2))
+let qualquer = 'legal'
+console.log(qualquer)
+console.log(typeof qualquer)
+
+qualquer = 3.1516
+console.log(qualquer)
+console.log(typeof qualquer)
+
+//Evitar nome genéricos e siglas
+let valor =''
+let numero = 1
+let pqp = false // Produto Quimico Perigoso kk
